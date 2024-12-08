@@ -1,0 +1,9 @@
+.form {
+    width: 100%;
+}
+
+.card {
+    height: 160px;
+    position: relative;
+    transform: translateY(-50%);
+}

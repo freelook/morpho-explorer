@@ -1,0 +1,12 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    background: var(--block);
+    padding: 20px;
+}

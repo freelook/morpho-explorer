@@ -1,25 +1,38 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #EBEDF5;
+  --block: #FAFCFF;
+  --color: #191D20F2;
+  --secondary: #434C53B2;
+  --text: #434C53F2;
+  --border: #434C5326;
+  --light: #191D200F;
+  --shadow: 0px 3px 12px 0px #00000017;
+  --focus: #5792FFA6;
+  --button: #2973FFD9;
+  --black: #000000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* theme configuration */
+.radix-themes {
+	--default-font-family: var(--font-inter);
+  --font-weight-regular: 400;
+  --color-background: var(--background);
+  --focus-8: var(--focus);
+  --accent-9: var(--button)
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: var(--color);
+  background: var(--background);
+  font-family: Inter, sans-serif;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,15 +41,4 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

@@ -1,0 +1,25 @@
+.nav {
+  padding: 12px 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav > a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+.navAction {
+  background: var(--light);
+  color: var(--color);
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  border-radius: 3px;
+  padding: 3px 2px 3px 8px;
+  text-decoration: none;
+}
+
+
+.main {
+  min-height: calc(100vh - 55px);
+}

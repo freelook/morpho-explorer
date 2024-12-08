@@ -1,0 +1,9 @@
+.title {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.body {
+    color: var(--text);
+    font-weight: 400;
+}
