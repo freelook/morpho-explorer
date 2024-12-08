@@ -41,7 +41,7 @@ export const VaultDetails = ({ chainId, vaultAddress }: Readonly<VaultDetailsPro
     <Section className={styles.card}>
       <Flex width="100%" direction="column" gap="8px">
         <Flex align="center" gap="8px">
-          <Image alt={vault?.name} src={vault?.metadata?.image} width={66} height={66} />
+          <Image priority alt={vault?.name} src={vault?.metadata?.image} width={66} height={66} />
           <Flex direction="column" width="100%">
             <Heading className={styles.heading} size="3">
               {vault?.name}
